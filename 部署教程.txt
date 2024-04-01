@@ -1,0 +1,22 @@
+运行环境环境：JDK 1.8、Node 14、MySQL 8、Navicat（任何桌面操作工具可平替）、IDEA
+运行前需把项目文件夹路径中的+号去掉（不然路径会识别不到）！！！
+
+1、导入数据表（详细操作可百度）。
+2、前端文件导入到IDEA（或者其它前端编译软件都可以VsCode、Hbuilder等），新建终端，输入npm run serve或者npm run dev（dos窗口打开的话可直接输入）。
+3、后端文件导入到IDEA，前后端开两个窗口，配置好JDK和Maven，同步下数据库密码，直接启动。
+4、把前端运行完生成的端口号复制到浏览器。
+      
+如果需要远程部署的话请加QQ：550080747（有软件环境的话收费20，没有软件环境的话收费40）
+
+
+
+
+pass：   ╷
+        前端运行过程中部分电脑可能会出现类似于如下这些语句爆红
+                                  color: mix($--tag-success-color, $--color-white, $fontColorWeight);
+   ╵                               margin-bottom: #{$--tooltip-arrow-size / 2};
+        这不是报错，只是过时写法的警告，不需要管。
+        （node-sass 是 ruby 时代遗留下来的“宝贝”，依赖各种远古编译环境，如 Python2.7、G++等，
+          而现在我们再去装会碰到各种报错。我们用 sass 替代 node-sass 即可。
+          dart-sass 兼容 node-sass 的 API，而且安装过程无需下载二进制文件，这样大家就不需要安装 node-sass 了）
+        编译不会报错，但是会有一些过时写法的警告。

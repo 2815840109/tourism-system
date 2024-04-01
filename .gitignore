@@ -1,0 +1,28 @@
+# ===== 前端 =====
+client/node_modules/
+client/dist/
+client/.vite/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== 后端 =====
+server/target/
+*.class
+*.jar
+*.war
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini*.bak
